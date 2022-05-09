@@ -44,12 +44,16 @@ img {
 button {
     width: 300px;
     padding: 10px;
-    border: 5px solid ;
-    margin: 20px;
+    border: 2px solid ;
+    margin: 10px;
+    box-shadow: inset 0 0 0 10px rgb(23, 183, 156);
+    
 }
 
+button:hover {background-color: #1061a9}
+
 div {
-    margin-top: 10px;
+    margin: 10px;
 }
 
 
