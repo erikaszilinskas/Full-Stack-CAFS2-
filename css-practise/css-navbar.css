@@ -3,23 +3,26 @@ ul {
 }
 
 li {
-    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 3px;
-    border: 2px solid;
+    border: 2px solid black;
     width: 200px;
-    color: blue;
+    background-color:grey;
+    color: azure;
 }
 
-a:hover{
-    color: blue;
-    text-decoration: underline; 
+a:hover  {
+    color: rgb(0, 0, 0); 
     text-decoration: none; 
     font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 a {
-    color: blue;
+    color: rgb(252, 248, 248);
     text-decoration: none;
+    display: block;
 }
 
 
