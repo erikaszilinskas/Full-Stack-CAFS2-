@@ -4,7 +4,7 @@ body {
   }
   
 header {
-    background-color: #0a0a23;
+    background-color: #000000;
     color: #f1f1f1;
   }
   
@@ -27,7 +27,7 @@ header a {
   }
   
 header a:hover{
-    color: #d31212;
+    color: #000000;
     background-color: #f1f1f1;
   }
 
