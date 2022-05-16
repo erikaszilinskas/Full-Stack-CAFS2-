@@ -9,10 +9,11 @@ div {
 /* tablet screen */
 @media only screen and (min-width: 786px) {
     div {
-        width: 50%; 
-        height: 350px; 
-        background-color: yellow;
+      width: 50%;
+      height: 350px;
+      background-color: yellow;
     }
+
   }
 
 /* desktop screen   */
