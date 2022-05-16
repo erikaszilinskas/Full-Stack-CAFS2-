@@ -11,19 +11,17 @@ header {
   }
   
 header ul {
-    margin: 0;
-    list-style: none;
     display: flex;
     flex-direction: column;
-
-
+    margin: 0;
+    list-style: none;
+    
   }
-  
-  
+   
 header a {
+    display: flex;
     color: white;
     padding: 25px;
-    display: flex;
     text-decoration: none;
     transition: .6s;
   }
