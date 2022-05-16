@@ -1,0 +1,51 @@
+/* mobile screen */
+
+body {
+    margin: 0;
+    font-family: arial;
+  }
+  
+header {
+    background-color: #000000;
+    color: #f1f1f1;
+  }
+  
+header ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  
+header li {
+   display: inline-block;
+   
+  }
+  
+header a {
+    color: white;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .6s;
+  }
+  
+header a:hover{
+    color: #000000;
+    background-color: #f1f1f1;
+  }
+
+/* desktop screen */
+
+@media only screen and (min-width: 640px) {
+    .navbar {
+        flex-direction: row;  
+    }
+
+}
+
+
+
+
