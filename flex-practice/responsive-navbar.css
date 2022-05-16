@@ -19,15 +19,11 @@ header ul {
 
   }
   
-header li {
-   display: inline-block;
-   
-  }
   
 header a {
     color: white;
     padding: 25px;
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     transition: .6s;
   }
