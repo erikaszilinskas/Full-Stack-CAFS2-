@@ -1,4 +1,4 @@
-function getRandomArbitrary(min, max) {
+function getRandomArbitrary(max) {
     return Math.random() * (max - min) + min;
   }
 
