@@ -22,7 +22,20 @@ const sumOfDigitArrow = n =>
     n ?
     (n % 10) + sumOfDigitArrow(parseInt(n / 10)) : 0;
 
-console.log(sumOfDigitArrow(4321));    
+console.log(sumOfDigitArrow(4321));  
+
+let cities = ["Vilnius", "Kaunas", "Klaipėda", "Šiauliai", "Panevėžys", "Marijampolė"];
+function getFavoriteCity(name, surname, city) {
+    let user = `${name} ${surname}`;
+    let favoriteCity = city;
+    return `${user} favorite city is ${favoriteCity}`;
+}
+getFavoriteCity("Name", "Surname", cities[5]);
+
+
+
+
+
 
 
 
