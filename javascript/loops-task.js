@@ -32,3 +32,6 @@ function getLaughWhile(numHa) {
 console.log('For loop:', getLaughFor(5));
 console.log('Do/While loop:', getLaughDoWhile(3));
 console.log('While loop:', getLaughWhile(2));
+
+
+
