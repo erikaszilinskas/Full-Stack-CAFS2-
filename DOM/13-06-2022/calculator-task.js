@@ -1,3 +1,6 @@
+const resultDisplay = document.getElementById("result");
+const calculateBtn = document.getElementById("calculate");
+
 function calculate(num1, num2, op) {
     switch (op) {
         case '+':
@@ -19,9 +22,8 @@ function showResult() {
     const num1 = parseInt(document.getElementById("num1").value);
     const num2 = parseInt(document.getElementById("num2").value);
     const op = document.getElementById("op").value;
-    document.getElementById("result").innerText = " ";
-    document.getElementById("result").innerText += calculate(num1, num2, op)
+    resultDisplay.innerText = " ";
+    resultDisplay.innerText += calculate(num1, num2, op)
 }
 
-
-document.getElementById("calculate").addEventListener("click", showResult)
+calculateBtn.addEventListener("click", showResult)
