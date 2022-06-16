@@ -15,9 +15,7 @@ function addElement () {
   newP.appendChild(newContentP);
 
   const newUl = document.createElement("ul");
-  const newContentUl = document.createTextNode("Hi there and greetings from UL!");
-  newUl.appendChild(newContentUl);
-
+  
   const newLi = document.createElement("li");
   const newContentLi = document.createTextNode("Hi there and greetings!");
   newLi.appendChild(newContentLi);
@@ -30,5 +28,6 @@ function addElement () {
   mainDiv.appendChild(newP)
   mainDiv.appendChild(newUl)
   mainDiv.appendChild(secondP)
+  newUl.appendChild(newLi)
 }
 
