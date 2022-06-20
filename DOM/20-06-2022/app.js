@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     carousel();
     startTime();
-    form.addEventListener('submit', logSubmit);
+    form.addEventListener('submit', validateSubmit);
 });
 
 
 // https://stackoverflow.com/questions/50375384/how-can-i-change-the-imageslider-one-by-one-every-3-seconds-in-javascript
 let sliderIndex = 0;
 function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slider");
+    let i;
+    let x = document.getElementsByClassName("slider");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
@@ -38,8 +38,6 @@ function checkTime(i) {
 }
 
 
-
-
 const form = document.getElementById('form');
 const msg = document.getElementById('message');
 const fName = document.getElementById("fName");
@@ -47,7 +45,7 @@ const lName = document.getElementById("lName");
 const address = document.getElementById("address");
 const email = document.getElementById("email");
 
-function logSubmit(event) {
+function validateSubmit(event) {
     event.preventDefault();
     if (fName.value == "" || lName.value == "") {
         msg.textContent = "First name or Last name is required !";
