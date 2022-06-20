@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     form.addEventListener('submit', validateSubmit);
 });
 
-
 // https://stackoverflow.com/questions/50375384/how-can-i-change-the-imageslider-one-by-one-every-3-seconds-in-javascript
 let sliderIndex = 0;
 function carousel() {
@@ -18,8 +17,6 @@ function carousel() {
     x[sliderIndex - 1].style.display = "block";
     setTimeout(carousel, 2000);
 }
-
-
 
 // https://stackoverflow.com/questions/50438363/show-real-time-clock-on-html-using-javascript
 function startTime() {
@@ -37,7 +34,7 @@ function checkTime(i) {
     return i;
 }
 
-
+// submit validation
 const form = document.getElementById('form');
 const msg = document.getElementById('message');
 const fName = document.getElementById("fName");
