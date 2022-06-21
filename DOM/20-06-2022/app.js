@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     carousel();
     startTime();
-    form.addEventListener('submit', validateSubmit);
+    form.addEventListener("submit", validateSubmit);
 });
 
 // https://stackoverflow.com/questions/50375384/how-can-i-change-the-imageslider-one-by-one-every-3-seconds-in-javascript
@@ -35,8 +35,8 @@ function checkTime(i) {
 }
 
 // submit validation
-const form = document.getElementById('form');
-const msg = document.getElementById('message');
+const form = document.getElementById("form");
+const msg = document.getElementById("message");
 const fName = document.getElementById("fName");
 const lName = document.getElementById("lName");
 const address = document.getElementById("address");
@@ -46,17 +46,17 @@ function validateSubmit(event) {
     event.preventDefault();
     if (fName.value == "" || lName.value == "") {
         msg.textContent = "First name or Last name is required !";
-        msg.style.background = 'red';
+        msg.style.background = "red";
         return false;
     }
     if (address.value == "" || email.value == "") {
         msg.textContent = "Address or Email is required !";
-        msg.style.background = 'red';
+        msg.style.background = "red";
         return false;
     }
 
     msg.textContent = "Form submitted successful !";
-    msg.style.background = 'green';
+    msg.style.background = "green";
 }
 
 
