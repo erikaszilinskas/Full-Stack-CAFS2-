@@ -10,7 +10,6 @@ console.log(arrDoubled(numbers));
 // 2. Parašykite funkciją arrMultiplied, kuri sukuria ir grąžina naują masyvą, kurio elementai padauginti iš argumentu nurodyto skaičiaus
 function arrMultiplied(numbers, multiNumber) {
   return numbers.map(x => x * multiNumber);
-
 }
 console.log(arrMultiplied(numbers, 3));
 
