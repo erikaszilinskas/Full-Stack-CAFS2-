@@ -8,11 +8,10 @@ class Movies {
     }
 
     getIntroduction() {
-        return `Movie introduction:  ${this.name}  was realeased in ${this.year} and the director is ${this.director}`;
+        return `Movie introduction: ${this.name}  was realeased in ${this.year} and the director is ${this.director}`;
     }
 
     getProfit() {
-        return `The profit was  ${this.income - this.budget} milion dollars`;
+        return `The profit was: $${this.income - this.budget} milion dollars`;
     }
-
 }
