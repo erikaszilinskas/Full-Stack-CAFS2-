@@ -24,10 +24,10 @@ function firstLowerCase(event) {
 }
 
 // task #3
-const form = document.getElementById("form");
-const msg = document.getElementById("message");
-const email = document.getElementById("email");
-const phoneNumber = document.getElementById("phone-number");
+let form = document.getElementById("form");
+let msg = document.getElementById("message");
+let email = document.getElementById("email");
+let phoneNumber = document.getElementById("phone-number");
 
 function validateSubmit(event) {
     event.preventDefault();
