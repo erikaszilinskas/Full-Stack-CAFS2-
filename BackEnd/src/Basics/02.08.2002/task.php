@@ -11,13 +11,12 @@
 
 // task #1
 $testArray = ["a", "b", "c"];
-
 var_dump($testArray);
 echo '<br>';
 
 //task #2
- echo "{$testArray[0]}, {$testArray[1]}, {$testArray[2]}";
- echo '<br>';
+echo "{$testArray[0]}, {$testArray[1]}, {$testArray[2]}";
+echo '<br>';
 
  //task #3
 $arr = ['a', 'b', 'c', 'd'];
