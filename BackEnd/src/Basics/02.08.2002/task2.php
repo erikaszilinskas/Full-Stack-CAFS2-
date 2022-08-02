@@ -28,9 +28,9 @@ echo "three number math result is: ", threeNumberMath(5, 3, 10);
 echo '<br>';
 
 // Parašykite funkciją, kuri priima kaip parametrą skaičių nuo 1 iki 7, o grąžina savaitės dieną lietuvių kalba.
-function weekDay(int $number)
+function weekDay(int $day)
 {
-    switch ($number) {
+    switch ($day) {
         case 1:
             echo "Pirmadienis !";
             break;
