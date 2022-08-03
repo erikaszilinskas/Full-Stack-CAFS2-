@@ -53,7 +53,7 @@ function weekDay(int $day)
             return "Sekmadienis !";
             break;
         default:
-          echo "Tokios savaites dienos nera !";
+            return "Tokios savaites dienos nera !";
     }
 }
 
