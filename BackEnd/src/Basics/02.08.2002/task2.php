@@ -32,29 +32,29 @@ function weekDay(int $day)
 {
     switch ($day) {
         case 1:
-            echo "Pirmadienis !";
+            return "Pirmadienis !";
             break;
         case 2:
-            echo "Antradienis !";
+            return "Antradienis !";
             break;
         case 3:
-            echo "Treciadienis !";
+            return "Treciadienis !";
             break;
         case 4:
-            echo "Ketvirtadienis !";
+            return "Ketvirtadienis !";
             break;
         case 5:
-            echo "Penktadienis !";
+            return "Penktadienis !";
             break;
         case 6:
-            echo "Sestadienis !";
+            return "Sestadienis !";
             break;
         case 7:
-            echo "Sekmadienis !";
+            return "Sekmadienis !";
             break;
         default:
           echo "Tokios savaites dienos nera !";
     }
 }
 
-weekDay(7);
+echo weekDay(7);
